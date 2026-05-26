@@ -63,4 +63,4 @@ Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para obt
 
 ## **Contacto**
 
-Creado por **Imanol** y **OriolR**. Si tienes preguntas o sugerencias, no dudes en ponerte en contacto a través de nuestro repositorio de GitHub.
+Creado por **OriolR**. Si tienes preguntas o sugerencias, no dudes en ponerte en contacto a través de nuestro repositorio de GitHub.
