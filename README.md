@@ -1,110 +1,66 @@
 # **Infinite Runner Game**
 
-![License](https://img.shields.io/badge/license-MIT-green)  
-![Platform](https://img.shields.io/badge/platform-Unity-blue)
+![Licencia](https://img.shields.io/badge/license-MIT-green)
+![Plataforma](https://img.shields.io/badge/platform-Unity-blue)
 
-## **Table of Contents**
+## **Índice**
 
-- [**Introduction**](#introduction)
-- [**Features**](#features)
-- [**Installation**](#installation)
-- [**How to Play**](#how-to-play)
-- [**Contribution Guidelines**](#contribution-guidelines)
-- [**License**](#license)
-- [**Contact**](#contact)
+- [**Introducción**](#introducción)
+- [**Características**](#características)
+- [**Instalación**](#instalación)
+- [**Cómo jugar**](#cómo-jugar)
+- [**Directrices de contribución**](#directrices-de-contribución)
+- [**Licencia**](#licencia)
+- [**Contacto**](#contacto)
 
-## **Introduction**
+## **Introducción**
 
-The **Infinite Runner Game** is a fast-paced endless running game where the player must avoid obstacles, jump, and collect points to achieve the highest score. The game progressively becomes more challenging as the player advances, increasing in speed and complexity over time.
+**Infinite Runner Game** es un juego de carreras infinitas de ritmo rápido en el que el jugador debe esquivar obstáculos, saltar y recoger puntos para conseguir la máxima puntuación. El juego se vuelve cada vez más desafiante a medida que el jugador avanza, aumentando su velocidad y complejidad con el tiempo.
 
-## **Features**
+## **Características**
 
-- **Endless Gameplay**: The level continues infinitely, challenging players to survive as long as possible.
-- **Obstacles**: Dynamic obstacles that the player must dodge or jump over.
-- **High Score System**: Track your highest score and attempt to beat it in every run.
-- **Increasing Speed**: The game becomes faster the longer you survive, adding difficulty over time.
-- **Simple Controls**: Easy to pick up and play, making it accessible for all types of players.
+* **Pistas Dinámicas**: Obstáculos generados procedimentalmente para garantizar que cada partida sea única.
+* **Dificultad Progresiva**: La velocidad y los obstáculos aumentan a medida que el jugador sobrevive más tiempo.
+* **Sistema de Puntuación**: Registra los puntos acumulados durante la carrera y guarda la puntuación máxima actual.
+* **Controles Sencillos**: Controles intuitivos adaptados para una respuesta rápida y fluida.
+* **Efectos de Sonido y Música**: Audio integrado que mejora la experiencia inmersiva del juego.
 
-## **Installation**
+## **Instalación**
 
-### **Prerequisites**
+Para ejecutar el juego localmente o abrirlo en Unity, sigue estos pasos:
 
-Before you begin, ensure you have the following installed on your system:
-
-- **Unity**: [Download Unity](https://unity.com/download) (Use the version used in this project or Unity 2021 or higher).
-- **Git**: [Download Git](https://git-scm.com/downloads)
-
-### **Steps**
-
-1. Clone this repository to your local machine:
-
+1.  **Clona el repositorio**:
     ```bash
-    git clone https://github.com/odaznara99/InfiniteRunnerGame.git
+    git clone [https://github.com/OriolRoyuela/ExamenSem5-Imanol-OriolR.git](https://github.com/OriolRoyuela/ExamenSem5-Imanol-OriolR.git)
     ```
+2.  **Abre el proyecto**:
+    * Abre Unity Hub.
+    * Haz clic en `Add` (Añadir) y selecciona la carpeta del proyecto clonado.
+    * Asegúrate de utilizar la versión de Unity recomendada (por ejemplo, Unity 2022.3 LTS o posterior).
+3.  **Ejecuta el juego**:
+    * Busca la escena principal en la carpeta `Assets/Scenes/MainScene.unity`.
+    * Haz clic en el botón de reproducción (`Play`) en el editor de Unity para comenzar.
 
-2. Open the project in Unity:
+## **Cómo jugar**
 
-    - Open Unity Hub
-    - Click on `Add`
-    - Navigate to the cloned folder and select it
+* **Saltar**: Presiona la tecla `Espacio` o `Flecha Arriba` para saltar por encima de los obstáculos.
+* **Agacharse**: Presiona la tecla `Flecha Abajo` para esquivar los obstáculos flotantes.
+* **Objetivo**: Sobrevive el mayor tiempo posible sin chocar contra los obstáculos para acumular la máxima puntuación.
 
-3. Press the play button in Unity to start the game.
+## **Directrices de contribución**
 
-### **Building for Android (Optional)**
+¡Las contribuciones son bienvenidas! Si deseas mejorar el juego, por favor sigue estos pasos:
 
-To build the game for Android:
+1.  Haz un **Fork** del repositorio.
+2.  Crea una nueva rama para tu característica o corrección de errores (`git checkout -b feature/NuevaCaracteristica`).
+3.  Realiza tus cambios y haz un commit con mensajes claros (`git commit -m 'Añadir nueva característica'`).
+4.  Sube los cambios a tu rama (`git push origin feature/NuevaCaracteristica`).
+5.  Abre un **Pull Request** detallando las mejoras realizadas.
 
-1. In Unity, go to `File -> Build Settings`
-2. Select `Android` and click `Switch Platform`.
-3. Configure the required SDKs, NDK, and JDK in Unity’s preferences.
-4. Build and run the project on your Android device.
+## **Licencia**
 
-## **How to Play**
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para obtener más detalles.
 
-1. **Movement**: Use the arrow keys or `A` (left) and `D` (right) to move your character.
-2. **Jump**: Press the `Spacebar` to jump over obstacles.
-3. **Score**: Collect points by surviving longer and avoiding obstacles.
-4. **Speed Increase**: The game's speed will increase the longer you play, making it progressively harder.
-5. **Game Over**: The game ends when you hit an obstacle.
+## **Contacto**
 
-## **Contribution Guidelines**
-
-We welcome contributions from everyone! Follow the steps below to contribute to the project:
-
-1. **Fork this repository** to your GitHub account.
-2. **Clone your fork** to your local machine:
-
-    ```bash
-    git clone https://github.com/your-username/InfiniteRunnerGame.git
-    ```
-
-3. Create a **new branch** for your feature or fix:
-
-    ```bash
-    git checkout -b feature-your-feature-name
-    ```
-
-4. Make your changes and commit them:
-
-    ```bash
-    git commit -m "Add new feature or fix"
-    ```
-
-5. Push your changes to your forked repository:
-
-    ```bash
-    git push origin feature-your-feature-name
-    ```
-
-6. Submit a **Pull Request** to the original repository with a detailed description of your changes.
-
-## **License**
-
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-
-## **Contact**
-
-For any questions or suggestions, feel free to reach out:
-
-- **GitHub**: [odaznara99](https://github.com/odaznara99)
-- **Email**: jayrussell.aranzado@gmail.com
+Creado por **Imanol** y **OriolR**. Si tienes preguntas o sugerencias, no dudes en ponerte en contacto a través de nuestro repositorio de GitHub.
